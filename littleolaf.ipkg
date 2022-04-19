@@ -1,0 +1,19 @@
+package littleolaf
+
+main = Olaf.Little.Main
+executable = littleOlaf
+
+modules = Toolkit
+
+        , DeBruijn.Context.Item
+        , DeBruijn.Context
+        , DeBruijn.Renaming
+        , DeBruijn.Substitution
+
+        , Olaf.Little.Types
+        , Olaf.Little.Terms
+        , Olaf.Little.Values
+        , Olaf.Little.Semantics.Reductions
+        , Olaf.Little.Semantics.Evaluation
+
+        , Olaf.Little.Main
